@@ -15,10 +15,10 @@ if ( true ) {
 // declare a new constant named vocab with the value of [ "let", "var", "destructuring", "spread", "rest" ]
 
 
-// change "var" to "const" at index 1 of vocab
+// Without re-writting the above array, change "var" to "const" at index 1 of vocab
 
 
-// add "arrow function" to the end of vocab
+// push "arrow function" to the end of vocab
 
 
 
@@ -46,7 +46,7 @@ if ( true ) {
 
 
 // using computed property names create a new object named flipped where the keys are your first and last name
-// and the values are "first" and "last"
+// and the values are the strings "first" and "last"
 
 
 //////////////////////////////
@@ -135,6 +135,11 @@ const bits = [ 2, 4, 8, 16, 32, 64, 128 ];
 // named mooresBits. mooresBits should be the bits array doubled.
 
 
+
+// using an arrow function, add a property named arrow to the following object
+// that returns the window object do this without using the window keyword.
+// HINT: The default binding of the this keyword
+
 // do not modify
 const that = {
 	bind: "returns a function definition with the specified context"
@@ -142,5 +147,4 @@ const that = {
 	, apply: "invokes a function with the specified context, passing an array of arguments individually"
 }
 
-// using an arrow function, add a property named arrow that returns the window object
-// do this without using the window keyword. HINT: The default binding of the this keyword
+// code here
